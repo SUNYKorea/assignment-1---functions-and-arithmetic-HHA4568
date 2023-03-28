@@ -92,6 +92,5 @@ print("The area of the triangle is : " + str(area) + " , its perimeter is : " + 
 # Exercise 3 test
 number_sides = 5
 length_side = 4
-a = apothem
 print ("The area of the polygon is : " + str(polygon_area(number_sides, length_side)))
 

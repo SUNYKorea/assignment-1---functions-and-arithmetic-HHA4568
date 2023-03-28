@@ -7,9 +7,6 @@
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
-from math import tan
-
-
 def fahrenheit2celsius(fahrenheit):
    celsius = (5/9)*(fahrenheit - 32)
    return celsius
@@ -40,11 +37,11 @@ def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
     return area
 
 def euclidean_distance(x1, y1, x2, y2):
-    return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
+    return (((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5)
 def euclidean_distance(x2, y2, x3, y3):
-    return ((x2 - x3) ** 2 + (y2 - y3) ** 2) ** 0.5
+    return (((x2 - x3) ** 2 + (y2 - y3) ** 2) ** 0.5)
 def euclidean_distance(x3, y3, x1, y1):
-    return ((x3 - x1) ** 2 + (y3 - y1) ** 2) ** 0.5
+    return (((x3 - x1) ** 2 + (y3 - y1) ** 2) ** 0.5)
 
   
    
@@ -60,15 +57,16 @@ def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
 
 def deg2rad(deg):
     import math
+    from math import pi
     rad = deg * math.pi / 180
     return rad
 
 def apothem(number_sides, length_side):
-   import math
+   from math import tan
    return length_side / 2 * tan(180 / number_sides)
 
 def polygon_area(number_sides, length_side):
-   import math
+   from math import tan
    return (number_sides * length_side * length_side / 2 * tan(180 / number_sides) ) / 2
 
 
@@ -77,7 +75,7 @@ def polygon_area(number_sides, length_side):
 # your grade. You may freely modify the following codes.
 
 # Exercise 1 test
-fahrenheit = 3
+fahrenheit = 524
 what_to_wear(fahrenheit2celsius(fahrenheit))
 
 # Exercise 2 test

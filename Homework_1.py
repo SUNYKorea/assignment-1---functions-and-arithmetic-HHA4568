@@ -1,7 +1,18 @@
 # Name: Yejun Han
 # SBUID: 115935415
+##################### SCORE ######################
+####### Score:  6/10
+#################################################
 
 # Remove the ellipses (...) when writing your solutions.
+# your output:
+# fahrenheit: 44
+# celsius: 6.666666666666667
+# Sweater
+# Puffy jacket -  wrong
+# The area of the triangle is : 32.0 , its perimeter is : 27.440161448987652
+# The area of the polygon is : 155.00941811398295-  wrong
+
 
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------

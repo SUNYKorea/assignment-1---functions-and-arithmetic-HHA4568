@@ -1,7 +1,8 @@
 # Name: Yejun Han
 # SBUID: 115935415
 ##################### SCORE ######################
-####### Score:  6/10
+####### Score:  7/10
+
 #################################################
 
 # Remove the ellipses (...) when writing your solutions.
